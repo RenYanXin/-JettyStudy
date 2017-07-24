@@ -4,5 +4,9 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="03_Netty_TimeServer_main" target="1.8" />
+      <module name="03_Netty_TimeServer_test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

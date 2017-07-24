@@ -10,11 +10,12 @@ public class AcceptCompletionHandler implements CompletionHandler<AsynchronousSo
     public void completed(AsynchronousSocketChannel result, AsyncTimeServerHandle attachment) {
         attachment.asynchronousServerSocketChannel.accept(attachment, this);
         ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
-        result.read(byteBuffer, byteBuffer, new ReadCompletionHandler());
+        result.read(byteBuffer, byteBuffer, new ReadCompletionHandler(result));
     }
 
     @Override
     public void failed(Throwable exc, AsyncTimeServerHandle attachment) {
-
+        exc.printStackTrace();
+        attachment.countDownLatch.countDown();
     }
 }

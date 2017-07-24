@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="03_Netty_TimeServer" external.linked.project.path="$MODULE_DIR$/../../03_Netty_TimeServer" external.root.project.path="$MODULE_DIR$/../../03_Netty_TimeServer" external.system.id="GRADLE" external.system.module.group="com.ryx" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../03_Netty_TimeServer/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../03_Netty_TimeServer/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../03_Netty_TimeServer">
+      <sourceFolder url="file://$MODULE_DIR$/../../03_Netty_TimeServer/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../03_Netty_TimeServer/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../03_Netty_TimeServer/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../03_Netty_TimeServer/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../03_Netty_TimeServer/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../03_Netty_TimeServer/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../03_Netty_TimeServer/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-all:5.0.0.Alpha1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.netty:netty-all:5.0.0.Alpha1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.netty:netty-all:5.0.0.Alpha1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+  </component>
+</module>
